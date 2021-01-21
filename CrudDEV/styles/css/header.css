@@ -1,0 +1,94 @@
+.header {
+  overflow: hidden;
+  padding: 15px 10px;
+  margin-bottom: 15px;
+}
+
+.header button {
+  padding: .8em 2em !important;
+}
+
+.header input[type=text] {
+  margin: .3em;
+  border-radius: 5px;
+  display: inline-block;
+  width: 100px;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+  padding: 0.7em;
+  border: 2px solid #8257e6;
+  background: #121214;
+  color: white;
+  font-weight: bold;
+}
+
+.header input[type=text]:focus {
+  outline: 0;
+  width: 250px;
+}
+
+.header a {
+  float: left;
+  color: #e8e6e3;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: rgba(36, 36, 41, 0.582);
+  color: #e8e6e3;
+}
+
+.header a.active {
+  background-color: #005eba;
+  color: #e8e6e3;
+}
+
+@media screen and (max-width: 615px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header input[type=text]:focus {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .header button {
+    padding: .6em .5em;
+  }
+  .header input[type=text]:focus {
+    width: 210px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header input[type=text]:focus {
+    width: 180px;
+  }
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 615px) {
+  .header-right {
+    float: none;
+  }
+}
+/*# sourceMappingURL=header.css.map */

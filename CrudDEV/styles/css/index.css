@@ -1,0 +1,90 @@
+section {
+  z-index: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  color: #e8e6e3;
+  font-size: 50px;
+}
+
+h1:hover {
+  color: white;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flex > div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 200px;
+          flex: 1 1 200px;
+  padding: 1em;
+  margin: 10px;
+  -webkit-box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+          box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.562);
+}
+
+.flex > div p, .flex > div a {
+  color: #e8e6e3;
+  text-decoration: none;
+}
+
+.flex > div a {
+  font-size: 12px;
+}
+
+.flex > div a:link, .flex > div a:visited {
+  background: #8765d6;
+  padding: .4em 1em;
+  border: 0;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.479);
+          box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.479);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: white;
+  -webkit-transition: background 0.5s ease 0s, border 0.5s ease 0s;
+  transition: background 0.5s ease 0s, border 0.5s ease 0s;
+  cursor: pointer;
+}
+
+.flex > div a:hover, .flex > div a:active {
+  background-color: #8765d6;
+  color: #e8e6e3;
+}
+
+.flex > div:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  -webkit-box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25), -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+          box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25), -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+  background-color: rgba(0, 0, 0, 0.884);
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.css.map */

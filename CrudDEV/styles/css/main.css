@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* ----- Estilos Gerais ----- */
+* {
+  font-family: Roboto Mono, 'monospace';
+  margin: 0 auto;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #8257e6;
+  font-weight: bold;
+  position: relative;
+}
+
+html, body {
+  font-size: 1em;
+  height: 100%;
+  width: 100%;
+  margin-top: .5%;
+  background: url(SociableCalmAoudad.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8257e6;
+}
+
+/* ----- Botões e Inputs ----- */
+button {
+  background: #8765d6;
+  border: 0;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.479);
+          box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.479);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #e8e6e3;
+  -webkit-transition: background 0.5s ease 0s, border 0.5s ease 0s;
+  transition: background 0.5s ease 0s, border 0.5s ease 0s;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #8765d6;
+  -webkit-box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: none;
+}
+/*# sourceMappingURL=main.css.map */

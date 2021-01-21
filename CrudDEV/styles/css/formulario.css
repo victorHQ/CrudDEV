@@ -1,0 +1,201 @@
+@charset "utf-8";
+
+.container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    max-width: 900px;
+    margin: 0 auto;
+    background: rgb(19, 17, 22);
+    background: linear-gradient(90deg, rgb(19, 17, 22) 20%, rgba(30, 27, 35, 0.897) 70%, rgba(41, 44, 46, 0.705) 100%);
+    border: 2px solid rgb(130, 87, 230);
+    border-radius: 1em;
+    box-shadow: 0 0 15px rgba(54, 54, 54, 0.411);
+    display: flex;
+}
+
+fieldset {
+    border: 0;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+    resize: none;
+    outline: 0;
+}
+
+fieldset .sobrenome, fieldset .telefone {
+    padding-left: 5em;
+}
+
+.campo {
+    margin-right: 0.5em;
+    margin-top: 2em;
+}
+
+.campo label{
+    margin-bottom: .4em;
+    color: rgb(130, 87, 230);
+    display: inline-block;
+}
+
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 1em;
+}
+
+.container input[type="text"], input[type="email"], input[type="tel"], .campo select, .campo textarea {
+    padding: 0.5em;
+    border: 2px solid rgb(130, 87, 230);
+    display: block;
+    background: rgb(18, 18, 20);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.campo select{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.campo #cont{
+    max-width: 100px;
+}
+
+.campo .botao  {
+    font-size: 1.2em;
+    background: rgb(130, 87, 230);
+    border: 0;
+    margin-bottom: 1em;
+    margin-top: 3.5em;
+    margin-left: 50%;
+    padding: .4em 4em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.479);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    transition: background 0.5s ease 0s, border 0.5s ease 0s;
+    cursor: pointer;
+}
+
+.campo .botao:hover {
+    background: rgb(135, 101, 214);
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+.titulo{ 
+    text-align: center;
+    padding-bottom: 1em;
+    max-width: 900px;
+}
+
+.titulo h1{
+    color: #e8e6e3;
+}
+
+.titulo a{
+    color: #e8e6e3;
+    float: left;
+    text-decoration: none;
+    margin-left: 3em;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 900px){
+    .imgregistro{
+        display: none;
+    }
+
+    .container{
+        max-width: 600px;
+        padding-left: 2em;
+    }
+
+    .titulo{
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 615px){
+
+    .container{
+        max-width: 440vw;
+    }
+
+    label{
+        display: flex;
+    }
+
+    .limitar input[type="text"], input[type="email"], input[type="tel"]{
+        display: flex;
+        padding-left: 0em;
+        height: 7vh;
+        width: 88vw;
+    }
+    
+    fieldset .sobrenome, fieldset .telefone{
+        padding-left: 0em;
+    }
+
+    .campo textarea{
+        width: 88vw !important;
+        margin-left: 0;
+        margin-right: 0 !important
+    }
+
+    .campo #cont{
+        display: none;
+    }
+
+    .titulo{
+        max-width: 440vw;
+    }
+}
+
+@media screen and (max-width: 420px){
+    
+    .container{
+        max-width: 87vw;
+    }
+
+    form{
+        padding-left: .5em;
+    }
+
+    fieldset, .grupo, .campo{
+        float: left;
+        max-width: 206px 
+    }
+
+    .limitar input[type="text"], input[type="email"], input[type="tel"]{
+        display: flex;
+        padding-left: 0em;
+        height: 5vh;
+        width: 62vw;
+        text-align: left;
+    }
+
+    #tecnologia{
+        width: 62vw !important;
+    }
+    
+    .campo textarea{
+        width:62vw !important;
+    }
+
+    .campo #cont{
+        display: none;
+    }
+
+    .campo .botao{
+        padding: .4em 2em;
+    }
+
+    .titulo{
+        max-width: 87vw;
+    }
+    
+}
