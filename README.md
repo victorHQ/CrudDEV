@@ -9,7 +9,7 @@
   2- Depois de instalado, coloque a pasta "CrudDEV" no caminho "C:\xampp\htdocs" ou na pasta onde preferiu instaladar o app (Obs: Os arquivos devem ficar dentro da pasta htdocs).
   ![image](https://user-images.githubusercontent.com/34111368/105278906-369d7980-5b85-11eb-92ed-710dcf0e0d2f.png)
   
-  3- Logo depois de instalar e abrir o xampp, execute os serviços "Apache" e "MySQL", depois clique em "admin" para ver o Crud.
+  3- Logo depois de instalar e abrir o xampp, execute os serviços "Apache" e "MySQL", depois clique em "admin".
   ![image](https://user-images.githubusercontent.com/34111368/105279016-76fcf780-5b85-11eb-8e15-5c711a8672b6.png)
 
   
