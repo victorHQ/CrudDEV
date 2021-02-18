@@ -56,4 +56,12 @@
     <li>Após abrir o navegador, selecione a pasta CrudDEV.</li>
   </ol>
   
+<h2 id="license" align="center">
+  Licença 📝
+</h2>
+<p align="center">
+  Esse projeto está sob a licença MIT. Veja o arquivo <a href="LICENSE"> LICENSE </a> para mais detalhes.<br><br>
+  <img src="https://img.shields.io/static/v1?label=license&message=mit&color=green&style=for-the-badge&logo="/>   
+</p>
+  
   Background do Crud: https://www.deviantart.com/kirokaze
